@@ -2,8 +2,6 @@ import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import ReservationForm from './components/ReservationForm';
-import ReservationList from './components/ReservationList';
 import Home from './pages/Home';
 import Reservations from './pages/Reservations';
 import axios from 'axios';
